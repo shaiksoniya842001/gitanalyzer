@@ -11,8 +11,7 @@ import random
 
 import sqlite3
 from sqlite3 import Error
-from flask import Flask,render_template
-from flask import request
+from flask import Flask,render_template,request
 from flask import jsonify
 import traceback
 
